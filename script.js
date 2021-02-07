@@ -29,7 +29,7 @@ function searchMeal(e) {
         resultHeading.innerHTML = `<h2>Search Result For ${term} : </h2>`;
 
         if (data.meals === null) {
-          alert('Nothing is found with this wrong keyword')
+          alert('Nothing is found with this wrong keyword. Please! Enter a valid keyword. Thank You.....😊')
           
         } else {
           mealsEl.innerHTML = data.meals
@@ -50,7 +50,7 @@ function searchMeal(e) {
     //Clear Search Term
     search.value = "";
   } else {
-    alert("Please! Enter a valid keyword");
+    alert("Please! Enter a valid keyword. Thank You.....😊");
   }
 }
 
